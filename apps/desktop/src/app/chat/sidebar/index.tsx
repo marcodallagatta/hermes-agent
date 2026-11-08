@@ -2018,7 +2018,7 @@ export function ChatSidebar({
                     label={group.label}
                     labelIcon={
                       <PlatformAvatar
-                        className="size-4 rounded-[4px] text-[0.5625rem] [&_svg]:size-3"
+                        className="size-3.5 rounded-[4px] text-[0.5625rem] [&_svg]:size-3"
                         platformId={group.sourceId}
                         platformName={group.label}
                       />

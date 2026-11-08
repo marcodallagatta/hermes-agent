@@ -188,7 +188,9 @@ export function SidebarCronJobsSection({
           onClick={onToggle}
           type="button"
         >
-          <SidebarPanelLabel>{label}</SidebarPanelLabel>
+          <SidebarPanelLabel fixedLeadingSlot leadingIcon={<Codicon name="calendar" size="0.75rem" />}>
+            {label}
+          </SidebarPanelLabel>
           <DisclosureCaret
             className="text-(--ui-text-tertiary) opacity-0 transition group-hover/section-label:opacity-100"
             open={open}

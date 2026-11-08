@@ -74,8 +74,9 @@ function SidebarSectionHeader({
 }: SidebarSectionHeaderProps) {
   const labelBody = (
     <>
-      {icon}
-      <SidebarPanelLabel>{label}</SidebarPanelLabel>
+      <SidebarPanelLabel fixedLeadingSlot leadingIcon={icon}>
+        {label}
+      </SidebarPanelLabel>
       {meta && <SidebarSectionMeta>{meta}</SidebarSectionMeta>}
     </>
   )
